@@ -85,5 +85,12 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "engines": {
+    "name": "example-app",
+    "description": "a really cool app",
+    "version": "1.0.0",
+    "engines": "18.x"
+    
   }
 }
