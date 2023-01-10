@@ -20,14 +20,14 @@ import { EmailController } from './email.controller';
       envFilePath: '.local.env',
     }),
     MongooseModule.forRoot(
-      'mongodb+srv://jacknimmble:nimmble67@cluster0.ooglnnq.mongodb.net/?retryWrites=true&w=majority',
+      '',
     ),
     MailerModule.forRoot({
       transport: {
         host: 'smtp.sendgrid.net',
         auth: {
           user: 'apikey',
-          pass: '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',
+          pass: '',
         },
       },
       preview: true,
