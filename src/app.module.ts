@@ -40,7 +40,7 @@ import { EmailController } from './email.controller';
       },
       
     }),
-    StripeModule.forRoot('sk_test_51IiVCyGIYilrPRlMF83KgmWqfIr7pzIiHQmvFCok57ZahWFjvoNxGNnki0pLua5Q8Jh4eaKn9nYmxOaRarffBQyV00fkfRLLjU', { apiVersion: '2022-11-15' }),
+    StripeModule.forRoot('', { apiVersion: '2022-11-15' }),
     HotelsModule,
     AuthModule,
     UsersModule,
